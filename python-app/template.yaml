@@ -8,6 +8,9 @@ spec:
   owner: development
   type: service
 
+
+
+
   parameters:
     - title: Fill in some steps
       required:
@@ -34,8 +37,8 @@ spec:
       input:
         url: ./template
         values:
-          component_id: ${{parameters.component_id}}
-          environment: ${{parameters.environment}}
+          app_name: ${{parameters.component_id}}
+          app_env: ${{parameters.environment}}
 
     - id: publish
       name: Publish
