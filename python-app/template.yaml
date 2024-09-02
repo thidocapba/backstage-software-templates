@@ -8,9 +8,6 @@ spec:
   owner: development
   type: service
 
-
-
-
   parameters:
     - title: Fill in some steps
       required:
